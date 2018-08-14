@@ -16,4 +16,54 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="流式布局"/>
+    <Button
+        android:id="@+id/btn_pain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pain"/>
+    <Button
+        android:id="@+id/btn_canvas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="canvas"/>
+    <Button
+        android:id="@+id/btn_bezier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="贝赛尔曲线"/>
+    <Button
+        android:id="@+id/btn_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recycler加头尾"/>
+    <Button
+        android:id="@+id/btn_recycleranima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recycler交互动画"/>
+    <Button
+        android:id="@+id/btn_drawerlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="侧滑"/>
+    <Button
+        android:id="@+id/btn_svg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="svg"/>
+    <Button
+        android:id="@+id/btn_layoutmanager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LayoutManager"/>
+    <Button
+        android:id="@+id/btn_DouYingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抖音"/>
+    <Button
+        android:id="@+id/btn_svganimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中国地图动画"/>
 </LinearLayout>

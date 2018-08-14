@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_chinamap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中国地图"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/svg_img" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_cloud_upload_black_24dp"/>
+    <!--<ImageView-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="300dp"-->
+    <!--android:src="@drawable/svg_img2"/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:src="@drawable/svg_img4"/>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/path_tick2cross_anim"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="anim1"
+        android:src="@drawable/animate_vd_star"/>
+
+</LinearLayout>
